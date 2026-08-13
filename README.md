@@ -29,25 +29,13 @@ Ciência da Computação (La Salle) e Ciência de Dados e IA (UniRitter).
 
 ### O que já está rodando
 
-<p align="center">
-  <a href="https://github.com/roehrs/Gestao-de-Ingressos-Gratuitos">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=roehrs&repo=Gestao-de-Ingressos-Gratuitos&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&border_color=30363D&hide_border=false" alt="Gestão de Ingressos Gratuitos">
-  </a>
-  <a href="https://github.com/roehrs/macropad">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=roehrs&repo=macropad&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&border_color=30363D&hide_border=false" alt="Macropad">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/roehrs/Investigacao-SQL">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=roehrs&repo=Investigacao-SQL&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&border_color=30363D&hide_border=false" alt="Investigação SQL">
-  </a>
-  <a href="https://github.com/roehrs/Maturidade-Ativa">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=roehrs&repo=Maturidade-Ativa&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&border_color=30363D&hide_border=false" alt="Maturidade Ativa">
-  </a>
-</p>
-
-> 🏆 **Gestão de Ingressos Gratuitos** foi o sistema de 1º lugar na Competição
-> Nacional Senac 2025.
+| Projeto | O que resolve | Stack |
+|---|---|---|
+| 🏆 **[Gestão de Ingressos Gratuitos](https://github.com/roehrs/Gestao-de-Ingressos-Gratuitos)** | Gestão de ingressos com regras de negócio e permissão por perfil. Foi o sistema de **1º lugar na Competição Nacional Senac 2025** | TypeScript |
+| **[macropad](https://github.com/roehrs/macropad)** | Configurador visual pro macropad CH57x: 3 teclas, knob e RGB. Firmware falando com HID de verdade | Rust |
+| **[Investigação SQL](https://github.com/roehrs/Investigacao-SQL)** | Jogo investigativo onde o aluno resolve um roubo escrevendo query. Ensina SQL sem parecer exercício | TypeScript |
+| **[Maturidade Ativa](https://github.com/roehrs/Maturidade-Ativa)** | Jogo point-and-click sobre cuidado e saúde dentro de casa | JavaScript |
+| **[gerador-atas](https://github.com/roehrs/gerador-atas)** | Tira a ata de reunião do trabalho manual | JavaScript |
 
 Boa parte do que eu construo é de cliente e fica em repositório fechado (CRM,
 loja, painel interno). Os cases com print e resultado estão em
@@ -78,11 +66,6 @@ Cloudflare Pages e um bocado de automação em Python.
 <details>
 <summary><b>Os números, pra quem gosta</b></summary>
 <br>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=roehrs&show_icons=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&border_color=30363D" alt="Estatísticas do GitHub" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=roehrs&layout=compact&langs_count=6&hide=html,css,scss,jupyter%20notebook,go%20template&exclude_repo=Bootcamp_programador_python_IGTI&bg_color=00000000&title_color=58A6FF&text_color=8B949E&border_color=30363D" alt="Linguagens mais usadas" height="165">
-</p>
-
 <p align="center">
   <img src="./metrics.svg" alt="Infográfico de métricas do GitHub" width="100%">
 </p>
