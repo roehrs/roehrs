@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Diogo%20Roehrs&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Sistemas%20sob%20medida%20%C2%B7%20Dados%20%C2%B7%20Tr%C3%A1fego%20pago&descAlignY=54&descSize=16" width="100%" alt="">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Diogo%20Marques%20Roehrs&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Sistemas%20sob%20medida%20%C2%B7%20Dados%20%C2%B7%20Tr%C3%A1fego%20pago&descAlignY=54&descSize=16" width="100%" alt="">
 </div>
 
 <div align="center">
@@ -36,7 +36,7 @@ Meu código quase sempre nasce de um problema que existia antes dele.
 ```yaml
 localizacao:  Canoas, Rio Grande do Sul
 formacao:     [Ciência da Computação (La Salle), Ciência de Dados e IA (UniRitter)]
-trabalhando:  [Senac RS, EUgência, Família do Personalizado]
+trabalhando:  [Senac RS, Tráfego Pago, Família do Personalizado]
 construindo:  sistema interno, loja, painel, automação
 aprendendo:   Rust, e o que o próximo problema exigir
 ```
