@@ -1,0 +1,62 @@
+name: Métricas do perfil
+
+on:
+  schedule:
+    # Todo dia às 06:00 BRT (09:00 UTC)
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gerar e commitar metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # PAT clássico com escopo `public_repo`.
+          # Criar em https://github.com/settings/tokens e salvar em
+          # Settings > Secrets and variables > Actions como METRICS_TOKEN.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # A action commita o SVG sozinha usando esse token.
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          user: roehrs
+          filename: metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+          config_display: large
+
+          # PageSpeed do portfólio. É a prova mais direta de qualidade
+          # técnica pra quem contrata dev.
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://dev.diogoroehrs.com
+          plugin_pagespeed_detailed: yes
+
+          # Calendário isométrico de contribuições (o bloco 3D)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Linguagens mais usadas, ignorando o que polui o gráfico
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          plugin_languages_ignored: >-
+            html, css, scss, makefile, dockerfile, shell, jupyter notebook,
+            go template, tex, batchfile
+
+          # Hábitos de commit: horário do dia e dia da semana
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+
+          # Ícones das tecnologias dominadas
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
