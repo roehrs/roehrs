@@ -79,8 +79,16 @@ Cloudflare Pages e um bocado de automação em Python.
 <summary><b>Os números, pra quem gosta</b></summary>
 <br>
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=roehrs&show_icons=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&border_color=30363D" alt="Estatísticas do GitHub" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=roehrs&layout=compact&langs_count=6&hide=html,css,scss,jupyter%20notebook,go%20template&bg_color=00000000&title_color=58A6FF&text_color=8B949E&border_color=30363D" alt="Linguagens mais usadas" height="165">
+</p>
+
+<!-- Depois de criar o secret METRICS_TOKEN e rodar a Action, descomentar a linha
+     abaixo pro infográfico completo (PageSpeed, calendário isométrico, hábitos).
+<p align="center">
   <img src="./metrics.svg" alt="Métricas do GitHub" width="100%">
 </p>
+-->
 </details>
 
 <p align="center">
