@@ -5,8 +5,6 @@ on:
     # Todo dia às 06:00 BRT (09:00 UTC)
     - cron: "0 9 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
