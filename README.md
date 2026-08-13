@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Diogo%20Marques%20Roehrs&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Sistemas%20sob%20medida%20%C2%B7%20Dados%20%C2%B7%20Tr%C3%A1fego%20pago&descAlignY=54&descSize=16" width="100%" alt="">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Diogo%20Roehrs&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Sistemas%20sob%20medida%20%C2%B7%20Dados%20%C2%B7%20Tr%C3%A1fego%20pago&descAlignY=54&descSize=16" width="100%" alt="">
 </div>
 
 <div align="center">
@@ -36,7 +36,7 @@ Meu código quase sempre nasce de um problema que existia antes dele.
 ```yaml
 localizacao:  Canoas, Rio Grande do Sul
 formacao:     [Ciência da Computação (La Salle), Ciência de Dados e IA (UniRitter)]
-trabalhando:  [Senac RS, Tráfego Pago, Família do Personalizado]
+trabalhando:  [Senac RS, EUgência, Família do Personalizado]
 construindo:  sistema interno, loja, painel, automação
 aprendendo:   Rust, e o que o próximo problema exigir
 ```
@@ -68,6 +68,37 @@ Foi o sistema de **1º lugar na Competição Nacional Senac 2025**.
 </td>
 <td width="50%" valign="top">
 
+### 🌊 [Painel Nível Guaíba](https://github.com/roehrs/painel-nivel-guaiba)
+Monitor 24/7 do nível dos rios da Bacia do Guaíba, numa TV.
+Ordena os pontos pelo que está mais perto de transbordar.
+
+`Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ✅ [Organizador Pessoal](https://github.com/roehrs/organizador-pessoal)
+Tarefas em que **quem registra é o assistente, não eu**.
+Captura automática, agendamento em lote, fila offline.
+
+`Python` `PHP` `MySQL`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧊 [Personalizador 3D](https://github.com/roehrs/personalizador-3d)
+Transforma um `.3mf` fechado em modelo paramétrico
+e gera dezenas de peças personalizadas em lote.
+
+`Python` `OpenSCAD`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### ⌨️ [macropad](https://github.com/roehrs/macropad)
 Configurador visual pro macropad CH57x: 3 teclas, knob e RGB.
 Falando HID de verdade com o hardware.
@@ -75,27 +106,20 @@ Falando HID de verdade com o hardware.
 `Rust`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-### 🔍 [Investigação SQL](https://github.com/roehrs/Investigacao-SQL)
-Jogo investigativo onde o aluno resolve um roubo escrevendo query.
-Ensina SQL sem parecer exercício.
+### 🖨️ [Organizador da Loja](https://github.com/roehrs/organizador-loja-3d)
+Kanban de pedidos de impressão 3D. PHP puro e MySQL,
+porque hospedagem compartilhada não tem terminal.
 
-`TypeScript`
-
-</td>
-<td width="50%" valign="top">
-
-### 🏠 [Maturidade Ativa](https://github.com/roehrs/Maturidade-Ativa)
-Jogo point-and-click sobre cuidado e saúde dentro de casa.
-
-`JavaScript`
+`PHP` `MySQL`
 
 </td>
 </tr>
 </table>
+
+**Sites no ar:** [dev.diogoroehrs.com](https://github.com/roehrs/portfolio-dev) ·
+[familiadopersonalizado.com.br](https://github.com/roehrs/familia-do-personalizado-site)
 
 > Boa parte do que eu construo é de cliente e fica em repositório fechado (CRM, loja,
 > painel interno). Os cases com print e resultado estão em
